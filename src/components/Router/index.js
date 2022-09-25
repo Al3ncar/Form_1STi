@@ -7,7 +7,8 @@ import Cong from "../../Pages/Conclud/index"
 export default function index() {
   return (
     <Routes>
-        <Route path="" element={<Main/>}/>
+        <Route path="/" element={<Main/>}/>
+        <Route path='Form_1STi/' element={<Main/>}/>
         <Route path="/sing" element={<Sing/>}/>
         <Route path="/cong" element={<Cong/>}/>
     </Routes>
